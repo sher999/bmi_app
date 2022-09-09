@@ -51,30 +51,6 @@ class _ResultPageState extends State<ResultPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Text(
-            //   widget.name.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
-            // Text(
-            //   widget.age.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
-            // Text(
-            //   widget.gender.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
-            // Text(
-            //   widget.dob.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
-            // Text(
-            //   widget.height.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
-            // Text(
-            //   widget.weight.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
             Text(
               '${bmires.toStringAsFixed(2)}',
               style: TextStyle(
@@ -86,61 +62,10 @@ class _ResultPageState extends State<ResultPage> {
               height: 30,
             ),
             Text(
-                'Bmi betn 18 to 22 is good otherwise it is too low or too high')
-            // Text(
-            //   widget.gender.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
-            // Text(
-            //   widget.gender.toString(),
-            //   style: TextStyle(fontSize: 20),
-            // ),
+                'Bmi between 18 to 22 is good otherwise it is too low or too high')
           ],
         ),
       ),
     );
-
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     title: Text(
-    //       "BMI Calculator",
-    //       style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
-    //     ),
-    //     centerTitle: true,
-    //     backgroundColor: Colors.blueGrey,
-    //     foregroundColor: Colors.white,
-    //   ),
-    //   body: Center(
-    //     child: Container(
-    //       child: Column(
-    //         mainAxisAlignment: MainAxisAlignment.center,
-    //         children: [
-    //           Text(
-    //             "BMI RESULT IS :",
-    //             style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-    //           ),
-    //           Text(
-    //             '${bmires.toStringAsFixed(2)}',
-    //             style: TextStyle(
-    //                 fontSize: 40,
-    //                 fontWeight: FontWeight.bold,
-    //                 color: Colors.blueGrey),
-    //           ),
-    //           Text(
-    //             "YOUR AGE IS :",
-    //             style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-    //           ),
-    //           Text(
-    //             '${widget.age}',
-    //             style: TextStyle(
-    //                 fontSize: 40,
-    //                 fontWeight: FontWeight.bold,
-    //                 color: Colors.blueGrey),
-    //           ),
-    //         ],
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 }

@@ -198,7 +198,7 @@ class _InputPageState extends State<InputPage> {
                   child: Padding(
                     padding: EdgeInsets.only(left: 15, right: 15, top: 5),
                     child: TextFormField(
-                      obscureText: true,
+                      // obscureText: true,
                       controller: _controllerGender,
                       decoration: InputDecoration(
                         border: InputBorder.none,
