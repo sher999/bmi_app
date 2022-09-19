@@ -1,11 +1,11 @@
 // ignore_for_file: file_names, prefer_const_constructors
 // ignore: sort_child_properties_last
 import 'package:bmi_app/methods/calculation.dart';
-import 'package:bmi_app/methods/result.dart';
+import 'package:bmi_app/screens/result.dart';
 import 'package:flutter/material.dart';
 import '../auth_methods/auth.dart';
 import '../auth_methods/auth_methods.dart';
-import '../methods/result.dart';
+import 'result.dart';
 import 'user_list.dart';
 
 class InputPage extends StatefulWidget {

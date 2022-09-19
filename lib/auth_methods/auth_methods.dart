@@ -1,6 +1,4 @@
 import 'dart:typed_data';
-
-import 'package:bmi_app/methods/storage_methods.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 // import 'package:instagram/resource/storage_methods.dart';
