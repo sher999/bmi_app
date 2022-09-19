@@ -71,18 +71,4 @@ class AuthMethods {
     }
     return res;
   }
-
-  // Future getUsersList() async {
-  //   List itemsList = [];
-  //   try {
-  //     await profilelist.getDocuments().then((querySnapshot) {
-  //       querySnapshot.documents.forEach((element) {
-  //         itemsList.add(element.data);
-  //       });
-  //     });
-  //   } catch (e) {
-  //     print(e.toString());
-  //     return null;
-  //   }
-  // }
 }

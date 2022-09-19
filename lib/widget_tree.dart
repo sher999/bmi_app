@@ -1,6 +1,6 @@
 import 'package:bmi_app/auth_methods/auth.dart';
 import 'package:bmi_app/screens/bmi_cal.dart';
-import 'package:bmi_app/auth_methods/login_register.dart';
+import 'package:bmi_app/screens/login_register.dart';
 import 'package:flutter/material.dart';
 
 class WidgetTree extends StatefulWidget {
